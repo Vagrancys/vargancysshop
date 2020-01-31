@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.youth.banner.Banner
+        android:id="@+id/home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_240dp"
+        app:delay_time="1500"
+        app:indicator_margin="@dimen/margin_size_5dp"
+        app:indicator_height="@dimen/margin_size_5dp"/>
+</LinearLayout>

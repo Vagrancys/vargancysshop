@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_size_10dp"
+    android:background="@color/pink">
+
+    <EditText
+        android:id="@+id/home_bar_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/home_bar_search"
+        android:background="@drawable/home_bar_edit"
+        android:layout_toStartOf="@+id/home_bar_code"
+        android:layout_marginEnd="@dimen/margin_size_10dp"
+        android:hint="@string/home_search_hint"
+        android:textSize="@dimen/text_size_14sp"
+        android:maxLines="1"
+        android:minHeight="@dimen/margin_size_40dp"
+        android:layout_centerVertical="true"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:id="@+id/home_bar_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_bar_code"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_bar_code"
+            android:textSize="@dimen/text_size_12sp"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/margin_size_5dp"
+            android:paddingTop="@dimen/margin_size_5dp"
+            android:paddingEnd="@dimen/margin_size_5dp"/>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

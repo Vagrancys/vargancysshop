@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">流浪商城</string>
+    <string name="welcome_skip">跳过</string>
+    <string name="welcome_name">流浪商城</string>
+    <string name="welcome_version">版本号 @ 0.001</string>
+    <string name="home_bar_code">扫码</string>
+    <string name="home_search_hint">请输入你要查找的商品</string>
+    <string name="channel_title">频道</string>
+    <string name="home_seckill">今日闪购 距.结束</string>
+    <string name="seckill_time">00:00:00</string>
+    <string name="commend_more">更多</string>
+    <string name="item_seckill_title">高端电脑</string>
+    <string name="home_recommend">新品推荐</string>
+    <string name="home_hot">商品都是流行的哦</string>
+    <string name="goods_title">商品详情</string>
+    <string name="goods_service">客服</string>
+    <string name="goods_collect">收藏</string>
+    <string name="goods_car">购物车</string>
+    <string name="goods_join">加入购物车</string>
+    <string name="goods_share">分享</string>
+    <string name="goods_search">搜索</string>
+    <string name="goods_home">首页</string>
+    <string name="tv_text">1</string>
+    <string name="car_data_button">去购物</string>
+    <string name="car_date_text">啊！没有任何东西呢！要不去补充一下呢？</string>
+    <string name="car_edit_false">编辑</string>
+    <string name="car_edit_true">完成</string>
+    <string name="car_title">购物车清单</string>
+    <string name="car_check_out">去结算</string>
+    <string name="car_money">197.0</string>
+    <string name="car_money_text">合计:</string>
+    <string name="car_check_text">全选</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_collection">收藏</string>
+    <string name="item_title">实打实大所大所多撒大所大所大所</string>
+</resources>
+
+
+
+
+
+
+
