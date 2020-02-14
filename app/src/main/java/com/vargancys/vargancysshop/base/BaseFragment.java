@@ -18,7 +18,7 @@ import butterknife.Unbinder;
  * time  : 2020/01/25
  * version:1.0
  */
-public abstract class BaseFragment extends RxFragment {
+public abstract class BaseFragment extends RxFragment{
     private View parentView;
     protected boolean isVisible;
     private Unbinder bind;
